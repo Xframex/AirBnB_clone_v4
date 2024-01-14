@@ -1,0 +1,27 @@
+header {
+    height: 70px; 
+    width: 100%;
+    border-bottom: 1px solid #CCCCCC;
+    background: white url(../images/logo.png);
+    background-repeat: no-repeat;
+    background-position: 20px center;
+    flex-shrink: 0;
+    display: flex; 
+    justify-content: flex-end; 
+    align-items: center;
+}
+
+#api_status {
+    margin-right: 30px;
+    border-radius: 20px;
+    background-color: #cccccc;
+    width: 40px;
+    height: 40px;
+    justify-content: right;
+    float: right;
+    margin-bottom: 20px;
+}
+
+#api_status.available {
+    background-color: #ff545f;
+}
